@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(206, 191, 209);
+}
+
+
+.button-container{
+	display:inline-block;
+	margin-right:10px;
+}
+
+    
+
+        .container {
+            display: flex;
+        }
+
+html {
+    scroll-behavior: smooth;
+}   
+        .box {
+            width: 1000px;
+            height: 500px;
+            margin: 10px;
+            border: 1px solid #000;
+	    color: black;
+        }
+        .box2 {
+            width: 1000px;
+            height: 560px;
+            margin: 10px;
+            border: 1px solid #000;
+	    color: black;
+        }
+        .box3 {
+            width: 1000px;
+            height: 530px;
+            margin: 10px;
+            border: 1px solid #000;
+	    color: black;
+        } 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}              
+header{
+    background: url("image/WhatsApp\ Image\ 2023-11-28\ at\ 00.50.46.jpeg");
+    height: 90vh;
+    -webkit-backgroun-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    color: #0f0e0e;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float:left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid #000;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
